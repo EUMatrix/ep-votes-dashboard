@@ -6,7 +6,7 @@ import './index.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/ep-votes-dashboard">
       <App />
     </BrowserRouter>
   </StrictMode>,
